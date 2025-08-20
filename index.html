@@ -450,6 +450,22 @@
             box-shadow: 0 0 0 3px #ff5252 inset !important;
         }
 
+        @media (max-width: 480px) {
+          .title {
+            font-size: 1.8rem; /* ~28px, vừa với 360px */
+          }
+          .final-title {
+            font-size: 2rem; /* ~32px */
+          }
+          .subtitle {
+            font-size: 1rem; /* ~16px */
+          }
+          .keyword-chip {
+            font-size: 0.9rem;
+            padding: 6px 12px;
+          }
+        }
+
         .toast {
             position: fixed;
             top: 20px;
@@ -513,7 +529,7 @@
 
         <div id="finalPage" style="display: none;">
             <div class="final-page">
-                <h3 class="final-title">🎉 Chúc mừng! 🎉</h3>
+                <h1 class="final-title">🎉 CHÚC MỪNG! 🎉</h1>
                 <p style="font-size: 1.2rem; color: #1565c0; font-style: italic; margin-bottom: 30px;">
                     Chị đã giải được tất cả câu đố!
                 </p>
@@ -887,6 +903,7 @@
 
 
 </html>
+
 
 
 
